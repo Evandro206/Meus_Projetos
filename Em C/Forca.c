@@ -37,8 +37,8 @@ char *randomize(char *words[], int nWords)
     return word;
 }
 
-void showStrength() // Função para exibir a forca e a palavra escondida
-{
+void showStrength() 
+{                  // Função para exibir a forca e a palavra escondida
     switch (error) // Exibe a forca de acordo com o número de erros
     {
     case 0:
